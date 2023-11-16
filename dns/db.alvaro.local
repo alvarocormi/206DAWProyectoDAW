@@ -1,0 +1,18 @@
+;
+; BIND data file for alvaro.local
+;
+$TTL	604800
+@	IN	SOA	acm-used.alvaro.local. alvaro.cormi.educa.jcyl.es (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	acm-used.alvaro.local.
+; Registros Host
+@		IN	A	192.168.3.206
+acm-used	IN	A       192.168.3.206
+; Registros Alias
+daw206		IN CNAME acm-used.alvaro.local.
+DAW206		IN CNAME acm-used.alvaro.local.

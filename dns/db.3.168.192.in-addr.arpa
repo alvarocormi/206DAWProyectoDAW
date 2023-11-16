@@ -1,0 +1,15 @@
+;
+; BIND data for 3.168.192.in-addr.arpa
+;
+$TTL	604800
+@	IN	SOA	acm-used.alvaro.local. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	acm-used.alvaro.local.
+; Registros Pointer
+20x		IN PTR acm-used.alvaro.local.
+20x		IN PTR alvaro.local.
