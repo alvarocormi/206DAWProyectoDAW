@@ -1,0 +1,30 @@
+#################################
+###
+###
+### Alta de usuarios
+###
+######################
+#  Usuario alvaro de la unidad organizativa usuarios
+dn: uid=alvaro,ou=superior,dc=alvaro,dc=local
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+uid: alvaro
+sn: cordero
+cn: alvaro
+mail: alvaro@alvaro.localhost
+userPassword: paso
+
+# Usuario amor de la unidad organizativa usuarios
+#dn: uid=amor,ou=superior,dc=alvaro,dc=local
+#objectClass: inetOrgPerson
+#objectClass: organizationalPerson
+#objectClass: person
+#objectClass: top
+#uid: amor
+#sn: rodriguez
+#cn: amor
+#mail: amor@alvaro.localhost
+#userPassword: paso
+
